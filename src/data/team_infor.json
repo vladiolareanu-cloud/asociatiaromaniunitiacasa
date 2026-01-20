@@ -1,0 +1,315 @@
+[
+        { 
+        "avatar": "team1.png",
+        "name": "Doru Borșan",
+        "position": "Președinte",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+              {
+        "avatar": "team6.png",
+        "name": "Cosmina Pașcan",
+        "position": "Director Executiv",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+        {
+        "avatar": "team9.png",
+        "name": "Aurora Oniță",
+        "position": "Director Financiar",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+
+
+    {
+        "avatar": "team2.png",
+        "name": "Melinda Chiruță",
+        "position": "Coord. Dep. Asistență Seniori",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+        {
+        "avatar": "team3.png",
+        "name": "Cătălin Pop",
+        "position": "Coord. Dep. Asistență Copii",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+        {
+        "avatar": "team4.png",
+        "name": "Adrienn Novák",
+        "position": "Coord. Dep. Logistică",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+           {
+        "avatar": "team5.png",
+        "name": "Iohana Borșan",
+        "position": "PR",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+   
+           {
+        "avatar": "team7.png",
+        "name": "Marius Popescu",
+        "position": "Coord. Dep. Marketing",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+           {
+        "avatar": "team8.png",
+        "name": "Vlad Olăreanu",
+        "position": "Coord. Dep. IT",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+
+
+
+
+
+
+        
+          {
+        "avatar": "dias1.png",
+        "name": "Bogdan Silvas",
+        "position": "Coord. Germania",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+          {
+        "avatar": "dias2.png",
+        "name": "Olga Timea Farcaș ",
+        "position": "Coord. Spania",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+          {
+        "avatar": "dias3.png",
+        "name": "Mureșan  Petru  Mircea",
+        "position": "Coord. Franța",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+         {
+        "avatar": "dias4.png",
+        "name": "Tito Galanti",
+        "position": "Coord. Italia",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+         {
+        "avatar": "dias5.png",
+        "name": "Mats Paulsson",
+        "position": "Coord. Țările Nordice",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+    {
+        "avatar": "dias6.png",
+        "name": "Christian Meier",
+        "position": "Coord. Elveția",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+
+
+
+
+
+
+
+
+
+        
+                {
+        "avatar": "vol1.png",
+        "name": "Moldovan Laurențiu",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol2.png",
+        "name": "Moldovan Paul-Ștefan",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol3.png",
+        "name": "Maxim Mădălina",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol4.png",
+        "name": "Leonte Alexia",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol5.png",
+        "name": "Major Diana-Maria",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol6.png",
+        "name": "Lazăr Ștefana-Maria",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol7.png",
+        "name": "Iftime Mihai",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                   {
+        "avatar": "vol8.png",
+        "name": "Dămătăr Michele-Gabriel",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                   {
+        "avatar": "vol9.png",
+        "name": "Balahura Daria",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                   
+                     {
+        "avatar": "vol10.png",
+        "name": "Ravasz Viktória",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+        {
+        "avatar": "vol11.png",
+        "name": "Ureche Maria-Cristina",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    }
+        
+        
+        
+        
+   
+ 
+]

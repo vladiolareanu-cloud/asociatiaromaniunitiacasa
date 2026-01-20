@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Wrapper general pentru cazuri sociale */
+.cazuri_sociale_wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+
+/* Bloc individual de caz */
+.caz_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Imaginea din bloc */
+.caz_block img {
+  width: 45%;
+  max-width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Textul din bloc */
+.caz_block p {
+  width: 50%;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Poziția stânga/dreapta */
+.caz_block.left {
+  flex-direction: row;
+}
+
+.caz_block.right {
+  flex-direction: row-reverse;
+}
+
+/* Responsive: pe mobil imaginea deasupra textului */
+@media screen and (max-width: 768px) {
+  .caz_block {
+    flex-direction: column !important;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .caz_block img,
+  .caz_block p {
+    width: 100%;
+  }
+
+  .caz_block p {
+    font-size: 16px;
+  }
+}
+

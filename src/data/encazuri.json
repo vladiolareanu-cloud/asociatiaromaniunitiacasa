@@ -1,0 +1,60 @@
+[
+{
+  "titlu": "ShoeBox Mureș",
+  "cazuri": [
+    {
+      "text": "Every winter, no child should feel the cold… neither in their feet nor in their heart. The ShoeBox Mureș campaign – ‘Put Shoes on a Child for Christmas’ – brings shoes and hope to over 1,000 children in Mureș County. With the support of kind-hearted people and the community, the packages reach families who sometimes don’t even have the bare necessities. Each pair of shoes is more than an object – it represents care, protection, and dignity. The involvement of case managers, volunteers, partners, and donors has turned the work into stories of hope: over 1,000 children with shoes, over 1,000 warmed hearts. Good deeds don’t need applause, only people who make them possible.",
+      "poza": "/img/cazuri/shoebox/1.png",
+      "pozitie": "left"
+    }
+  ],
+  "slider": [
+    "/img/cazuri/shoebox/slider/1.png",
+    "/img/cazuri/shoebox/slider/2.png",
+    "/img/cazuri/shoebox/slider/3.png",
+    "/img/cazuri/shoebox/slider/4.png",
+    "/img/cazuri/shoebox/slider/5.png",
+    "/img/cazuri/shoebox/slider/6.png",
+    "/img/cazuri/shoebox/slider/7.png",
+    "/img/cazuri/shoebox/slider/8.png",
+    "/img/cazuri/shoebox/slider/9.png"
+  ]
+},
+  {
+  "titlu": "Vizită la Ideciu",
+  "cazuri": [
+    {
+      "text": "We stepped into a place where time flows differently: slower, quieter, yet full of untold stories. The gazes of the grandparents told us about a lifetime: work, sacrifice, harsh winters, simple joys, and hidden longings. These people don’t ask for much – just attention, a kind word, a hand held warmly. Every visit brings light into their lives: presence, respect, dignity, and a touch of joy in an ordinary day. 💛 Let us remember that every smile, every wrinkle, and every tear hides a story. Our duty as humans and as a community is to stay close. Let us never forget them.",
+      "poza": "/img/cazuri/ideciu/1.png",
+      "pozitie": "right"
+    }
+  ],
+  "slider": [
+    "/img/cazuri/ideciu/slider/1.png",
+    "/img/cazuri/ideciu/slider/2.png",
+    "/img/cazuri/ideciu/slider/3.png",
+    "/img/cazuri/ideciu/slider/4.png"
+  ]
+},
+  {
+  "titlu": "Școala din Senereuș",
+  "cazuri": [
+    {
+      "text": "We stepped into the School in Senereuș with gifts in our arms and hearts full of joy. It wasn’t just a visit – it was a meeting with pure childhood, with gazes that ask for little but say everything. In a place where need is sometimes felt only in silence, Christmas arrived as a ray of light: through a pair of shoes, a carefully prepared package, a simple gesture that said, ‘You are important. You matter.’ The children welcomed us with big smiles and sincere emotions, and the volunteers made every act of giving possible. True Christmas is not about how much you give, but about being there exactly when someone needs you. We thank everyone who made this journey possible!",
+      "poza": "/img/cazuri/senereus/1.png",
+      "pozitie": "left"
+    }
+  ],
+  "slider": [
+    "/img/cazuri/senereus/slider/1.png",
+    "/img/cazuri/senereus/slider/2.png",
+    "/img/cazuri/senereus/slider/3.png",
+    "/img/cazuri/senereus/slider/4.png"
+  ]
+}
+
+
+
+  
+]
+

@@ -1,0 +1,80 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+/* Titlul secțiunii */
+.neoh_fn_title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Chenar albastru pentru upload + canvas + butoane */
+.uploadBox {
+  background-color: #007bff; /* albastru */
+  border-radius: 12px;
+  padding: 40px 30px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+/* Text explicativ */
+.explanation {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 600px;
+  color: #fff;
+  margin: 0;
+}
+
+/* Canvas circular */
+.canvas {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  background-color: #f0f0f0;
+}
+
+/* Container butoane */
+.buttonsContainer {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* Butoane albe cu text albastru */
+.downloadButton,
+.chooseAnotherButton,
+.customFileUpload {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.downloadButton:hover,
+.chooseAnotherButton:hover,
+.customFileUpload:hover {
+  background-color: #e6e6e6;
+}
+
+/* Input ascuns pentru custom upload */
+.hiddenInput {
+  display: none;
+}
+
+/* Watermark invizibil */
+.hidden {
+  display: none;
+}
+
