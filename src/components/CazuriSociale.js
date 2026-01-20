@@ -13,40 +13,24 @@ const CazuriSociale = () => {
         trigger={
           <div className="neoh_fn_video">
             <div
-              className="bg_overlay"
-              style={{
-                width: "100%",
-                paddingTop: "56.25%", // 16:9 aspect ratio
-                position: "relative",
-                borderRadius: "10px",
-                overflow: "hidden",
-              }}
+              className="bg_overlay relative rounded-lg overflow-hidden"
+              style={{ width: "100%", paddingTop: "56.25%" }} // 16:9
             >
               <video
-                className="bg_video"
+                className="absolute top-0 left-0 w-full h-full object-cover cursor-pointer"
                 src="/img/MAAS/MAAS_movie.mp4"
                 autoPlay
                 loop
                 muted
                 playsInline
                 preload="metadata"
-                style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                  cursor: "pointer",
-                }}
               />
             </div>
             <div className="v_content">
               <img
                 src="svg/play.svg"
                 alt="Play"
-                className="fn__svg"
-                style={{ cursor: "pointer" }}
+                className="fn__svg cursor-pointer"
               />
             </div>
           </div>
@@ -55,94 +39,51 @@ const CazuriSociale = () => {
 
       {/* TOATE campaniile din JSON */}
       {jsonData.map((campanie, campIndex) => (
-        <div key={campIndex}>
+        <div key={campIndex} className="mb-20">
           {/* Titlu campanie */}
-          <div style={{ textAlign: "center", margin: "50px 0" }}>
-            <h2
-              style={{
-                color: "#00bfff",
-                fontSize: "36px",
-                fontWeight: "bold",
-              }}
-            >
+          <div className="text-center my-12">
+            <h2 className="text-[#00bfff] text-3xl md:text-4xl font-bold">
               {campanie.titlu}
             </h2>
           </div>
 
           {/* Cazuri */}
-          <div className="cazuri_sociale_wrapper">
+          <div className="cazuri_sociale_wrapper max-w-[1200px] mx-auto px-4 md:px-6">
             {campanie.cazuri.map((item, index) => (
               <div
                 key={index}
-                className={`caz_block ${
-                  item.pozitie === "left" ? "left" : "right"
+                className={`caz_block flex flex-col md:flex-row md:items-center gap-6 mb-12 ${
+                  item.pozitie === "left" ? "md:flex-row" : "md:flex-row-reverse"
                 }`}
-                style={{
-                  display: "flex",
-                  flexDirection:
-                    item.pozitie === "left" ? "row" : "row-reverse",
-                  alignItems: "center",
-                  marginBottom: "50px",
-                  gap: "30px",
-                  flexWrap: "wrap",
-                }}
               >
                 {/* MEDIA: IMG sau VIDEO */}
                 {item.poza.endsWith(".mp4") ? (
-                  <div
-                    style={{
-                      width: "45%",
-                      maxWidth: "400px",
-                      borderRadius: "10px",
-                      overflow: "hidden",
-                      backgroundColor: "#000",
-                      position: "relative",
-                      paddingTop: "56.25%", // 16:9 aspect ratio
-                    }}
-                  >
+                  <div className="w-full md:w-1/2 rounded-lg overflow-hidden relative" style={{ paddingTop: "56.25%" }}>
                     <video
                       src={item.poza}
                       controls
                       playsInline
                       preload="metadata"
-                      style={{
-                        position: "absolute",
-                        top: 0,
-                        left: 0,
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
+                      className="absolute top-0 left-0 w-full h-full object-cover"
                     />
                   </div>
                 ) : (
                   <img
                     src={item.poza}
                     alt={`Poza ${index}`}
-                    style={{
-                      width: "45%",
-                      maxWidth: "400px",
-                      borderRadius: "10px",
-                      objectFit: "cover",
-                    }}
+                    className="w-full md:w-1/2 rounded-lg object-cover"
                   />
                 )}
 
-                <p
-                  style={{
-                    width: "50%",
-                    fontSize: "18px",
-                    lineHeight: "1.6",
-                    textAlign: "justify",
-                  }}
-                >
+                {/* TEXT */}
+                <p className="w-full md:w-1/2 text-justify text-base md:text-lg leading-relaxed px-4 md:px-6">
                   {item.text}
                 </p>
               </div>
             ))}
 
             {/* Slider – DOAR IMAGINI */}
-            <div style={{ marginTop: "50px" }}>
+            <div className="mt-12">
               <Swiper
                 spaceBetween={10}
                 slidesPerView={4}
@@ -164,10 +105,7 @@ const CazuriSociale = () => {
                     <img
                       src={img}
                       alt={`Slider ${key}`}
-                      style={{
-                        width: "100%",
-                        borderRadius: "10px",
-                      }}
+                      className="w-full rounded-lg object-cover"
                     />
                   </SwiperSlide>
                 ))}
