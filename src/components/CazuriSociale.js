@@ -1,46 +1,89 @@
-import { useEffect, useState } from "react";
+import Layout from "@/layout/Layout";
+import PageBanner from "@/layout/PageBanner";
+import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import cazuriData from "@/data/cazuri.json";
+import { Autoplay } from "swiper/modules";
+import jsonData from "@/data/cazuri.json";
 
-const CazuriSociale = () => {
-  const [cazuri, setCazuri] = useState([]);
-
-  useEffect(() => {
-    setCazuri(cazuriData);
-  }, []);
-
-  // helper: detectează automat video după extensie
-  const isVideo = (src) => {
-    return src.endsWith(".mp4") || src.endsWith(".webm") || src.endsWith(".ogg");
-  };
-
+const CazuriSocialePage = () => {
   return (
-    <section className="cazuri_sociale">
-      <div className="container">
-        <h2 className="fn_title">Cazuri Sociale</h2>
+    <Layout pageName="Cazuri Sociale">
+      <PageBanner
+        pageName="Cazuri Sociale"
+        imageURL="img/hero/head_about_background.png"
+      />
 
-        {cazuri.map((caz, idx) => (
-          <div key={idx} className="caz_item">
-            <h3 className="fn_subtitle">{caz.titlu}</h3>
+      {/* Video sub titlu */}
+      <VideoPopupLocal
+        videoSrc="/img/MAAS/MAAS_movie.mp4"
+        trigger={
+          <div className="neoh_fn_video">
+            <div className="bg_overlay">
+              <video
+                className="bg_video"
+                src="/img/MAAS/MAAS_movie.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  cursor: "pointer",
+                  borderRadius: "10px",
+                }}
+              />
+            </div>
+            <div className="v_content">
+              <img
+                src="svg/play.svg"
+                alt="Play"
+                className="fn__svg"
+                style={{ cursor: "pointer" }}
+              />
+            </div>
+          </div>
+        }
+      />
 
-            {caz.cazuri.map((item, iidx) => (
+      {/* TOATE campaniile din JSON */}
+      {jsonData.map((campanie, campIndex) => (
+        <div key={campIndex}>
+          {/* Titlu campanie */}
+          <div style={{ textAlign: "center", margin: "50px 0" }}>
+            <h2
+              style={{
+                color: "#00bfff",
+                fontSize: "36px",
+                fontWeight: "bold",
+              }}
+            >
+              {campanie.titlu}
+            </h2>
+          </div>
+
+          {/* Cazuri */}
+          <div className="cazuri_sociale_wrapper">
+            {campanie.cazuri.map((item, index) => (
               <div
-                key={iidx}
-                className={`caz_row ${item.pozitie}`}
+                key={index}
+                className={`caz_block ${
+                  item.pozitie === "left" ? "left" : "right"
+                }`}
                 style={{
                   display: "flex",
                   flexDirection:
                     item.pozitie === "left" ? "row" : "row-reverse",
                   alignItems: "center",
+                  marginBottom: "50px",
                   gap: "30px",
                   flexWrap: "wrap",
-                  marginBottom: "50px",
                 }}
               >
-                {/* MEDIA: imagine sau video */}
-                {isVideo(item.poza) ? (
+                {/* MEDIA: IMG sau VIDEO */}
+                {item.poza.endsWith(".mp4") ? (
                   <video
                     src={item.poza}
                     controls
@@ -55,7 +98,7 @@ const CazuriSociale = () => {
                 ) : (
                   <img
                     src={item.poza}
-                    alt={caz.titlu}
+                    alt={`Poza ${index}`}
                     style={{
                       width: "45%",
                       maxWidth: "400px",
@@ -65,7 +108,6 @@ const CazuriSociale = () => {
                   />
                 )}
 
-                {/* TEXT */}
                 <p
                   style={{
                     width: "50%",
@@ -79,45 +121,43 @@ const CazuriSociale = () => {
               </div>
             ))}
 
-            {/* SLIDER – rămâne DOAR imagini */}
-            {caz.slider && caz.slider.length > 0 && (
-              <div style={{ marginTop: "50px" }}>
-                <Swiper
-                  spaceBetween={10}
-                  slidesPerView={4}
-                  loop={true}
-                  modules={[Autoplay]}
-                  autoplay={{ delay: 0, disableOnInteraction: false }}
-                  freeMode={true}
-                  speed={5000}
-                  breakpoints={{
-                    320: { slidesPerView: 1, spaceBetween: 10 },
-                    480: { slidesPerView: 2, spaceBetween: 10 },
-                    640: { slidesPerView: 2, spaceBetween: 10 },
-                    768: { slidesPerView: 3, spaceBetween: 10 },
-                    1024: { slidesPerView: 4, spaceBetween: 10 },
-                  }}
-                >
-                  {caz.slider.map((img, sidx) => (
-                    <SwiperSlide key={sidx}>
-                      <img
-                        src={img}
-                        alt={`Slider ${sidx + 1}`}
-                        style={{
-                          width: "100%",
-                          borderRadius: "10px",
-                        }}
-                      />
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
-              </div>
-            )}
+            {/* Slider – rămâne DOAR IMAGINI */}
+            <div style={{ marginTop: "50px" }}>
+              <Swiper
+                spaceBetween={10}
+                slidesPerView={4}
+                loop={true}
+                modules={[Autoplay]}
+                autoplay={{ delay: 0, disableOnInteraction: false }}
+                freeMode={true}
+                speed={5000}
+                breakpoints={{
+                  320: { slidesPerView: 1, spaceBetween: 10 },
+                  480: { slidesPerView: 2, spaceBetween: 10 },
+                  640: { slidesPerView: 2, spaceBetween: 10 },
+                  768: { slidesPerView: 3, spaceBetween: 10 },
+                  1024: { slidesPerView: 4, spaceBetween: 10 },
+                }}
+              >
+                {campanie.slider.map((img, key) => (
+                  <SwiperSlide key={key}>
+                    <img
+                      src={img}
+                      alt={`Slider ${key}`}
+                      style={{
+                        width: "100%",
+                        borderRadius: "10px",
+                      }}
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
           </div>
-        ))}
-      </div>
-    </section>
+        </div>
+      ))}
+    </Layout>
   );
 };
 
-export default CazuriSociale;
+export default CazuriSocialePage;
