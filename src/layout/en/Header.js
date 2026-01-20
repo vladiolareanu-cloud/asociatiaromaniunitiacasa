@@ -98,7 +98,7 @@ const Header = () => {
         >
           {/* Logo */}
           <div className="logo">
-            <Link legacyBehavior href="/">
+            <Link legacyBehavior href="asociatiarua.com/en">
               <a>
                 <img
                   src="/img/menu/logo.png"
