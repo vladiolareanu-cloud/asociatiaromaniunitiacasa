@@ -51,6 +51,20 @@
     "/img/cazuri/senereus/slider/3.png",
     "/img/cazuri/senereus/slider/4.png"
   ]
+},
+{
+  "titlu": "Căsuța lui Mark",
+  "cazuri": [
+    {
+      "text": "Lorem Ipsun",
+      "poza": "/img/cazuri/mark/video.mp4",
+      "pozitie": "left"
+    }
+  ],
+  "slider": [
+    "/img/cazuri/mark/slider/1.png",
+    "/img/cazuri/mark/slider/2.png"
+  ]
 }
 
 
