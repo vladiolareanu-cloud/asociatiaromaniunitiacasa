@@ -27,6 +27,7 @@ const CazuriSocialePage = () => {
                 loop
                 muted
                 playsInline
+                preload="metadata"
                 style={{
                   width: "100%",
                   height: "100%",
@@ -87,7 +88,9 @@ const CazuriSocialePage = () => {
                   <video
                     src={item.poza}
                     controls
+                    muted
                     playsInline
+                    preload="metadata"
                     style={{
                       width: "45%",
                       maxWidth: "400px",
@@ -121,7 +124,7 @@ const CazuriSocialePage = () => {
               </div>
             ))}
 
-            {/* Slider – rămâne DOAR IMAGINI */}
+            {/* Slider – DOAR IMAGINI */}
             <div style={{ marginTop: "50px" }}>
               <Swiper
                 spaceBetween={10}
