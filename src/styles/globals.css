@@ -34,6 +34,7 @@
   font-size: 18px;
   line-height: 1.6;
   text-align: justify;
+  margin: 0; /* previne margin implicit */
 }
 
 /* Poziția stânga/dreapta */
@@ -48,8 +49,9 @@
 /* Responsive: mobil/tabletă */
 @media screen and (max-width: 768px) {
   .caz_block {
-    flex-direction: column !important; /* imagine + text unul sub altul */
+    flex-direction: column; /* imagine + text unul sub altul */
     gap: 20px;
+    text-align: left; /* text mai lizibil pe mobil */
   }
 
   .caz_block img {
@@ -65,8 +67,6 @@
     padding: 0 20px;   /* padding lateral generos */
     font-size: 16px;
     line-height: 1.6;
-    text-align: left;  /* text aliniat stânga pentru lizibilitate */
+    text-align: left;
   }
 }
-
-
