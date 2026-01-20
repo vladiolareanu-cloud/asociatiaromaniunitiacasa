@@ -56,14 +56,20 @@
   "titlu": "Căsuța lui Mark",
   "cazuri": [
     {
-      "text": "Lorem Ipsun",
+      "text": "În satul Agrișteu trăiește Mark, născut în noiembrie 2025. Alături de el, ca niște îngeri păzitori, sunt surioarele lui: Petra, Jasmine și Alexandra-Beata – patru copii, patru destine fragile.\n\nNevoia lor este un cămin sigur și cald. Nu cerem lux, ci doar siguranță, căldură și confort: un loc curat, o sobă, un pat – un cămin unde copiii să crească fără frică și fără lipsuri.\n\nAsociația Români Uniți Acasă – RUA lansează apelul „Căsuța lui Mark” pentru a sprijini această familie. Orice contribuție contează pentru a le oferi un început sigur și o copilărie demnă.",
       "poza": "/img/cazuri/mark/video.mp4",
       "pozitie": "left"
     }
   ],
   "slider": [
     "/img/cazuri/mark/slider/1.png",
-    "/img/cazuri/mark/slider/2.png"
+    "/img/cazuri/mark/slider/2.png",
+    "/img/cazuri/mark/slider/3.png",
+    "/img/cazuri/mark/slider/4.png",
+    "/img/cazuri/mark/slider/5.png",
+    "/img/cazuri/mark/slider/6.png",
+    "/img/cazuri/mark/slider/7.png"
+    
   ]
 }
 
