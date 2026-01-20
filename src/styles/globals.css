@@ -45,17 +45,15 @@
   flex-direction: row-reverse;
 }
 
-
-/* Responsive: pe mobil imaginea și textul */
+/* Responsive: mobil/tabletă */
 @media screen and (max-width: 768px) {
   .caz_block {
-    flex-direction: column !important;
-    text-align: left; /* text aliniat stânga, ușor de citit */
+    flex-direction: column !important; /* imagine + text unul sub altul */
     gap: 20px;
   }
 
   .caz_block img {
-    width: 100%; /* imagine mare ca sliderul */
+    width: 100%;       /* imagine mare, la fel ca sliderul */
     max-width: 100%;
     height: auto;
     border-radius: 10px;
@@ -64,14 +62,10 @@
 
   .caz_block p {
     width: 100%;
-    padding: 0 20px; /* padding lateral mai generos */
+    padding: 0 20px;   /* padding lateral generos */
     font-size: 16px;
     line-height: 1.6;
-  }
-
-  .caz_block.right p,
-  .caz_block.left p {
-    text-align: left; /* text consistent */
+    text-align: left;  /* text aliniat stânga pentru lizibilitate */
   }
 }
 
