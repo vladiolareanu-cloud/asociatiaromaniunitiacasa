@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import Layout from "@/layout/Layout";
-import EnAboutComponent from "@components/enAboutComponent";
+import EnAboutComponent from "@components/EnAboutComponent";
 // import ServicesComponent from "@components/ServicesComponent";
- import EnWhyChooseUsComponent from "@components/enWhyChooseUsComponent";
+ import EnWhyChooseUsComponent from "@components/EnWhyChooseUsComponent";
 // import RoadmapComponent from "@/components/RoadmapComponent";
- import EnJoinNeoTechArmy from "@components/enJoinNeoTechArmy";
+ import EnJoinNeoTechArmy from "@components/EnJoinNeoTechArmy";
 // import Sponsors from "@components/Sponsors";
 
 
@@ -212,11 +212,11 @@ const En = () => {
 
           {/* Sections */}
           {/* <RoadmapComponent />*/}
-         <enAboutComponent />
+         <EnAboutComponent />
          {/* <ServicesComponent isLoading={isLoading} /> */}
          {/* <Sponsors /> */}
-          <enWhyChooseUsComponent /> 
-          <enJoinNeoTechArmy /> 
+          <EnWhyChooseUsComponent /> 
+          <EnJoinNeoTechArmy /> 
         </>
       )}
       <style jsx>{`
