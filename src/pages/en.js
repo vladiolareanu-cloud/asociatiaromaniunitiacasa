@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import Layout from "@/layout/Layout";
-import enAboutComponent from "@components/enAboutComponent";
+import EnAboutComponent from "@components/enAboutComponent";
 // import ServicesComponent from "@components/ServicesComponent";
- import enWhyChooseUsComponent from "@components/enWhyChooseUsComponent";
+ import EnWhyChooseUsComponent from "@components/enWhyChooseUsComponent";
 // import RoadmapComponent from "@/components/RoadmapComponent";
- import enJoinNeoTechArmy from "@components/enJoinNeoTechArmy";
+ import EnJoinNeoTechArmy from "@components/enJoinNeoTechArmy";
 // import Sponsors from "@components/Sponsors";
 
 
