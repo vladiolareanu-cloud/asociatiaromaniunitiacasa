@@ -9,8 +9,8 @@ import {
   progressTotop,
   stickyNav,
 } from "../utilits";
-import Footer from "./Footer";
-import Header from "./Header";
+import Footer from "./en/Footer";
+import Header from "./en/Header";
 import ScrollTop from "./ScrollTop";
 
 const Layout = ({ children, pageName, hideHeader }) => {

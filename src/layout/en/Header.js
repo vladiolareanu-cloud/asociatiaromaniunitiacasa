@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
 
-const EnHeader = () => {
+const Header = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -201,4 +201,4 @@ const linkStyle = {
   color: "#fff",
 };
 
-export default EnHeader;
+export default Header;

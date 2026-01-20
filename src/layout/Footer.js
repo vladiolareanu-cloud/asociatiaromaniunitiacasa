@@ -103,6 +103,9 @@ const Footer = () => {
              <a className="originTextColor" href="/voluntari">
                 Voluntari
               </a>
+               <a className="originTextColor" href="/cazuri-sociale">
+                Cazuri Sociale
+              </a>
             
               <a className="originTextColor" href="/contact">
                 Contact

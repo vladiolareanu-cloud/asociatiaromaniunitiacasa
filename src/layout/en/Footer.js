@@ -1,5 +1,5 @@
 import Link from "next/link";
-const EnFooter = () => {
+const Footer = () => {
   return (
     <footer id="footer">
       <div className="neoh_fn_footer">
@@ -103,7 +103,9 @@ const EnFooter = () => {
              <a className="originTextColor" href="/envoluntari">
                 Volunteers
               </a>
-            
+            <a className="originTextColor" href="/encazuri-sociale">
+                Social Cases
+              </a>
               <a className="originTextColor" href="/encontact">
                 Contact
               </a>
@@ -124,4 +126,4 @@ const EnFooter = () => {
     </footer>
   );
 };
-export default EnFooter;
+export default Footer;
