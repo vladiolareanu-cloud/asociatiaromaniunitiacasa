@@ -85,19 +85,22 @@ const CazuriSocialePage = () => {
               >
                 {/* MEDIA: IMG sau VIDEO */}
                 {item.poza.endsWith(".mp4") ? (
-                  <video
-                    src={item.poza}
-                    controls
-                    muted
-                    playsInline
-                    preload="metadata"
-                    style={{
-                      width: "45%",
-                      maxWidth: "400px",
-                      borderRadius: "10px",
-                      objectFit: "cover",
-                    }}
-                  />
+                 <video
+  src={item.poza}
+  controls
+  playsInline
+  preload="metadata"
+  style={{
+    display: "block",
+    width: "45%",
+    maxWidth: "400px",
+    height: "auto",
+    borderRadius: "10px",
+    objectFit: "cover",
+    backgroundColor: "#000",
+  }}
+/>
+
                 ) : (
                   <img
                     src={item.poza}
