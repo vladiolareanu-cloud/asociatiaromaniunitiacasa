@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Layout from "@/layout/en/Layout";
-import PageBanner from "@/layout/PageBanner";
+import PageBanner from "@/layout/en/PageBanner";
 
 const EnContact = () => {
   useEffect(() => {

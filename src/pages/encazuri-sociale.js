@@ -1,5 +1,5 @@
 import Layout from "@/layout/en/Layout";
-import PageBanner from "@/layout/PageBanner";
+import PageBanner from "@/layout/en/PageBanner";
 import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";

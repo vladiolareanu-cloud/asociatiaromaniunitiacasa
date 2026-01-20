@@ -1,5 +1,5 @@
 import Layout from "@/layout/en/Layout";
-import PageBanner from "@/layout/PageBanner";
+import PageBanner from "@/layout/en/PageBanner";
 import { getPagination, pagination } from "@/utilits";
 import Link from "next/link";
 import { useEffect, useState } from "react";
