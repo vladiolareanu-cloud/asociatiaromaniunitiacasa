@@ -1,4 +1,4 @@
-import Layout from "@/layout/Layout";
+import Layout from "@/layout/en/Layout";
 import PageBanner from "@/layout/PageBanner";
 import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
 import { Swiper, SwiperSlide } from "swiper/react";

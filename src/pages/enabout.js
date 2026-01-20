@@ -1,4 +1,4 @@
-import Layout from "@/layout/Layout";
+import Layout from "@/layout/en/Layout";
 import PageBanner from "@/layout/PageBanner";
 import TeamInfor from "@/data/team_infor.json";
 import Link from "next/link";

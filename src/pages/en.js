@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import Layout from "@/layout/Layout";
+import Layout from "@/layout/en/Layout";
 import EnAboutComponent from "@components/EnAboutComponent";
 // import ServicesComponent from "@components/ServicesComponent";
  import EnWhyChooseUsComponent from "@components/EnWhyChooseUsComponent";
