@@ -2,14 +2,17 @@ import Layout from "@/layout/Layout";
 import PageBanner from "@/layout/PageBanner";
 import { getPagination, pagination } from "@/utilits";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import TeamInfor from "@/data/team_infor.json";
-import TeamAdvisor from '@/data/team_advisor.json';
+import TeamAdvisor from "@/data/team_advisor.json";
 
 const EnVoluntari = () => {
   return (
     <Layout pageName={"EnVoluntari"}>
-      <PageBanner pageName={"EnVoluntari"} imageURL={"img/hero/head_about_background.png"}/>
+      <PageBanner
+        pageName={"EnVoluntari"}
+        imageURL={"img/hero/head_about_background.png"}
+      />
+
       <div className="neoh_fn_teampage">
         <section id="team">
           <div className="container">
@@ -20,8 +23,7 @@ const EnVoluntari = () => {
             {/* Team List Shortcode */}
             <div className="neoh_fn_team">
               <ul className="team_list">
-                {TeamInfor.map((item, key) =>
-                  key > 14 &&(
+                {TeamInfor.filter((_, key) => key > 14).map((item, key) => (
                   <li className="team_item" key={key}>
                     <div className="t_item">
                       <div className="person_info">
@@ -36,10 +38,14 @@ const EnVoluntari = () => {
 
                       <div className="person_social">
                         <ul>
-                          {/* Check for social links in the order of priority */}
+                          {/* Check for social links in order of priority */}
                           {item.social.twitter && (
                             <li>
-                              <a href={item.social.twitter} target="_blank" rel="noopener noreferrer">
+                              <a
+                                href={item.social.twitter}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
                                 <img
                                   src="img/team/twitter_white.png"
                                   alt="twitter_link"
@@ -49,7 +55,11 @@ const EnVoluntari = () => {
                           )}
                           {item.social.linkedin && !item.social.twitter && (
                             <li>
-                              <a href={item.social.linkedin} target="_blank" rel="noopener noreferrer">
+                              <a
+                                href={item.social.linkedin}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
                                 <img
                                   src="img/team/linkedin_white.png"
                                   alt="linkedin_link"
@@ -57,17 +67,22 @@ const EnVoluntari = () => {
                               </a>
                             </li>
                           )}
-                            {item.social.facebook && !item.social.linkedin && !item.social.twitter && (
-                            <li>
-                              <a href={item.social.facebook} target="_blank" rel="noopener noreferrer">
-                                <img
-                                  src="img/team/facebook_white.png"
-                                  alt="facebook_link"
-                                />
-                              </a>
-                            </li>
-                          )}
-                            
+                          {item.social.facebook &&
+                            !item.social.linkedin &&
+                            !item.social.twitter && (
+                              <li>
+                                <a
+                                  href={item.social.facebook}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <img
+                                    src="img/team/facebook_white.png"
+                                    alt="facebook_link"
+                                  />
+                                </a>
+                              </li>
+                            )}
                         </ul>
                       </div>
                     </div>
@@ -75,9 +90,12 @@ const EnVoluntari = () => {
                 ))}
               </ul>
             </div>
- {/*
+
+            {/* Project Advisors Section */}
             <div className="neoh_fn_team">
-              <h1 style={{textAlign:"center", margin:"50px"}}>Project Advisors</h1>
+              <h1 style={{ textAlign: "center", margin: "50px" }}>
+                Project Advisors
+              </h1>
               <ul className="team_list">
                 {TeamAdvisor.map((item, key) => (
                   <li className="team_item" key={key}>
@@ -93,11 +111,14 @@ const EnVoluntari = () => {
                       </div>
 
                       <div className="person_social">
-                        <ul>*/}
-                          {/* Check for social links in the order of priority 
+                        <ul>
                           {item.social.twitter && (
                             <li>
-                              <a href={item.social.twitter} target="_blank" rel="noopener noreferrer">
+                              <a
+                                href={item.social.twitter}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
                                 <img
                                   src="img/team/twitter_white.png"
                                   alt="twitter_link"
@@ -107,7 +128,11 @@ const EnVoluntari = () => {
                           )}
                           {item.social.linkedin && !item.social.twitter && (
                             <li>
-                              <a href={item.social.linkedin} target="_blank" rel="noopener noreferrer">
+                              <a
+                                href={item.social.linkedin}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
                                 <img
                                   src="img/team/linkedin_white.png"
                                   alt="linkedin_link"
@@ -115,6 +140,22 @@ const EnVoluntari = () => {
                               </a>
                             </li>
                           )}
+                          {item.social.facebook &&
+                            !item.social.linkedin &&
+                            !item.social.twitter && (
+                              <li>
+                                <a
+                                  href={item.social.facebook}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <img
+                                    src="img/team/facebook_white.png"
+                                    alt="facebook_link"
+                                  />
+                                </a>
+                              </li>
+                            )}
                         </ul>
                       </div>
                     </div>
@@ -122,7 +163,6 @@ const EnVoluntari = () => {
                 ))}
               </ul>
             </div>
-*/}
           </div>
         </section>
       </div>
@@ -131,3 +171,4 @@ const EnVoluntari = () => {
 };
 
 export default EnVoluntari;
+
