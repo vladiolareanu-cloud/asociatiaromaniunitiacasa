@@ -104,7 +104,7 @@ We do not store these pictures anywhere, so if you refresh the page, you will ne
             </>
           ) : (
             <label className={styles.customFileUpload}>
-              Alege fișier
+              Choose File
               <input
                 type="file"
                 className={styles.hiddenInput}
