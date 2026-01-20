@@ -43,9 +43,15 @@ const Contact = () => {
                   </a>
                 </li>
                 <li>
-                  <span>Telefon / WhatsApp</span>
+                  <span>Phone / WhatsApp</span>
                   <a href="tel:+40786493557">
-                    +40 786 493 557
+                    +40 786 493 557 - Cosmina Pașcan
+                  </a>
+                   <a href="tel:+40732737484">
+                    +40 732 737 484 - Melinda Chiruță  
+                  </a>
+                  <a href="tel:+40743630423">
+                    +40 743 630 423 - Novák Adrienn
                   </a>
                 </li>
               </ul>

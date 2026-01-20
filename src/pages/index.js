@@ -167,6 +167,9 @@ const Index = () => {
                       <br /> style={{ fontSize: "28px" }}
                      */}
                   </h2>
+                  <p className="fn_desc ">
+  Români Uniți Acasă
+</p>
                  <p className="fn_desc ">
   Construim punți între oameni, servicii și comunități vulnerabile în județul Mureș.
 </p>
@@ -176,7 +179,7 @@ const Index = () => {
                        
                     
                   
-                  <p><b>  #AlegeSăNuFiSingur #ÎnSlujbaBinelui </b> <br /></p>
+                  <p><b>  #AlegeSăNuFiiSingur #ÎnSlujbaBinelui </b> <br /></p>
 
                   <div className="home_logo">
                     <div style={wrapperStyle}>

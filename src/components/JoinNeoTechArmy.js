@@ -78,7 +78,7 @@ const JoinNeoTechArmy = () => {
       <div className="container">
         {/* Titlu */}
         <div className="neoh_fn_title">
-          <h3 className="fn_title">Fii parte din mișcarea RUA!</h3>
+          <h3 className="fn_title">Fii parte din comunitatea RUA!</h3>
         </div>
 
         {/* Chenar albastru centrat */}

@@ -95,7 +95,7 @@ import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
               <h3 className="fn_title">Echipa RUA</h3>
             </div>
             <p className="fn_desc fn_animated_text">
-            RUA este o organizație construită în jurul unor oameni care cred în responsabilitate, colaborare și implicare pe termen lung. Activitatea noastră se bazează pe planificare, parteneriate și acțiuni bine coordonate, menite să răspundă eficient provocărilor sociale locale.
+            RUA este o organizație construită în jurul unor oameni care cred în responsabilitate, colaborare și implicare pe termen lung. Activitatea noastră se bazează pe planificare, parteneriate și acțiuni bine coordonate, menite să răspundă eficient provocărilor sociale.
             </p>
             <div className="neoh_fn_team">
               <ul className="team_list">

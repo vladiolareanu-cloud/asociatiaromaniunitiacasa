@@ -167,6 +167,9 @@ const En = () => {
                       <br /> style={{ fontSize: "28px" }}
                      */}
                   </h2>
+                  <p className="fn_desc ">
+  Români Uniți Acasă
+</p>
                  <p className="fn_desc ">
   We build bridges between people, services, and vulnerable communities in Mureș County.
 </p>
