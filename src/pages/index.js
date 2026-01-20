@@ -168,7 +168,7 @@ const Index = () => {
                      */}
                   </h2>
                   <p className="fn_desc ">
-  Români Uniți Acasă
+  Românii Uniți Acasă
 </p>
                  <p className="fn_desc ">
   Construim punți între oameni, servicii și comunități vulnerabile în județul Mureș.
