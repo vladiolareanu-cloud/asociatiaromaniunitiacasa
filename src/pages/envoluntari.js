@@ -130,4 +130,4 @@ const EnVoluntari = () => {
   );
 };
 
-export default Voluntari;
+export default EnVoluntari;
