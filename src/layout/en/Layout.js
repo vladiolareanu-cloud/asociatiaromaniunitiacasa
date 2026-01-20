@@ -8,7 +8,7 @@ import {
   neoh_fn_moving_blog,
   progressTotop,
   stickyNav,
-} from ".../utilits";
+} from "@/utilits";
 import Footer from "./Footer";
 import Header from "./Header";
 import ScrollTop from "./ScrollTop";
