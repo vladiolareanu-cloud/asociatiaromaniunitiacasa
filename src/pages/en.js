@@ -1,15 +1,15 @@
 import { useState, useEffect, useRef } from "react";
 import Layout from "@/layout/Layout";
-import enAboutComponent from "@components/AboutComponent";
+import enAboutComponent from "@components/enAboutComponent";
 // import ServicesComponent from "@components/ServicesComponent";
- import enWhyChooseUsComponent from "@components/WhyChooseUsComponent";
+ import enWhyChooseUsComponent from "@components/enWhyChooseUsComponent";
 // import RoadmapComponent from "@/components/RoadmapComponent";
- import enJoinNeoTechArmy from "@components/JoinNeoTechArmy";
+ import enJoinNeoTechArmy from "@components/enJoinNeoTechArmy";
 // import Sponsors from "@components/Sponsors";
 
 
 
-const Index = () => {
+const En = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -234,4 +234,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default En;
