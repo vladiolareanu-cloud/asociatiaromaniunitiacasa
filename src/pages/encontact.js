@@ -17,9 +17,9 @@ const EnContact = () => {
   }, []);
 
   return (
-    <Layout pageName="EnContact">
+    <Layout pageName="Contact">
       <PageBanner
-        pageName="EnContact"
+        pageName="Contact"
         imageURL="img/hero/head_about_background.png"
       />
 
