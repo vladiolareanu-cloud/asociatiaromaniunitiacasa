@@ -20,7 +20,8 @@ const EnAboutComponent = () => {
               <p>
          We believe that no vulnerable family or individual should feel alone. In our county, social challenges overlap: poverty, lack of access to education, and limited healthcare affect everyone in the community. That is why we intervene where the need is greatest and build a support network that reaches every corner of the community. </p>
   <p>
-       Our mission is clear: we identify and support vulnerable individuals, increase access to education and healthcare, and activate communities through volunteering and responsibility. Every action we take has a direct and real impact, and together we can transform lives. <p>
+       Our mission is clear: we identify and support vulnerable individuals, increase access to education and healthcare, and activate communities through volunteering and responsibility. Every action we take has a direct and real impact, and together we can transform lives. </p>
+  <p>
        Solidarity is not a luxury, but a fundamental need. Through partnerships with authorities, NGOs, and the private sector, we ensure that every initiative is effective and sustainable, and that the benefits reach exactly where they are needed.
   </p>
             </div>
