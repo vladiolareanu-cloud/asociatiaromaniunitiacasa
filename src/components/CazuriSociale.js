@@ -1,5 +1,3 @@
-import Layout from "@/layout/Layout";
-import PageBanner from "@/layout/PageBanner";
 import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -8,12 +6,7 @@ import jsonData from "@/data/cazuri.json";
 
 const CazuriSociale = () => {
   return (
-    <Layout pageName="Cazuri Sociale">
-      <PageBanner
-        pageName="Cazuri Sociale"
-        imageURL="img/hero/head_about_background.png"
-      />
-
+    <>
       {/* Video sub titlu */}
       <VideoPopupLocal
         videoSrc="/img/MAAS/MAAS_movie.mp4"
@@ -183,7 +176,7 @@ const CazuriSociale = () => {
           </div>
         </div>
       ))}
-    </Layout>
+    </>
   );
 };
 
