@@ -40,12 +40,7 @@ const Header = () => {
                 <a style={linkStyle}>Social Cases</a>
                     </Link>
                     </li>
-            <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <Link legacyBehavior href="/contact">
-                <a style={linkStyle}>Contact</a>
-              </Link>
-            </li>
-            </li>
+            
             <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="/envoluntari">
                 <a style={linkStyle}>Volunteers</a>
