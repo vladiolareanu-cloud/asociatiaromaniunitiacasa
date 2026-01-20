@@ -35,7 +35,7 @@ const EnAboutComponent = () => {
           </div>
           <div className="content_item">
             <div className="neoh_fn_title" data-align="left">
-              <h3 className="fn_title">Sprijin și acțiuni</h3>
+              <h3 className="fn_title">Support and actions</h3>
             </div>
             <div className="desc">
               <p>

@@ -1,5 +1,5 @@
 import Layout from "@/layout/en/Layout";
-import PageBanner from "@/layout/PageBanner";
+import PageBanner from "@/layout/en/PageBanner";
 import TeamInfor from "@/data/team_infor.json";
 import Link from "next/link";
 import { useCallback } from "react";
@@ -12,9 +12,9 @@ import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
   }, []); 
 
   return (
-    <Layout pageName={"enDespreNoi"}>
+    <Layout pageName={"About us"}>
       <PageBanner
-        pageName={"enDespreNoi"}
+        pageName={"About us"}
         imageURL={"img/hero/head_about_background.png"}
       />
       <div className="neoh_fn_aboutpage">

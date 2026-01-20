@@ -12,7 +12,7 @@ const EnCazuriSociale = () => {
   }, []);
 
   return (
-    <section className="cazuri_sociale">
+    <section className="Social Cases">
       <div className="container">
         <h2 className="fn_title">Social Cases</h2>
 

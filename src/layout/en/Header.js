@@ -31,7 +31,7 @@ const Header = () => {
         <div className="nav_content">
           <ul style={{ padding: "20px 0" }}>
             <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <Link legacyBehavior href="/about">
+              <Link legacyBehavior href="/enabout">
                 <a style={linkStyle}>About us</a>
               </Link>
                   </li>

@@ -8,9 +8,9 @@ import jsonData from "@/data/encazuri.json";
 
 const EnCazuriSocialePage = () => {
   return (
-    <Layout pageName="EN Cazuri Sociale">
+    <Layout pageName="Social Cases">
       <PageBanner
-        pageName="EN Cazuri Sociale"
+        pageName="Social Cases"
         imageURL="img/hero/head_about_background.png"
       />
 
