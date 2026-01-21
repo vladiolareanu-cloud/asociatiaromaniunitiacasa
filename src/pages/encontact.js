@@ -44,16 +44,22 @@ you can write to us or call us using the contact details below.
                 </li>
                 <li>
                   <span>Phone / WhatsApp</span>
-                  <a href="tel:+40786493557">
-                    +40 786 493 557 - Cosmina Pașcan
-                  </a>
-                   <a href="tel:+40732737484">
-                    +40 732 737 484 - Melinda Chiruță  
-                  </a>
-                  <a href="tel:+40743630423">
-                    +40 743 630 423 - Novák Adrienn
-                  </a>
-                </li>
+                <a href="tel:+40786493557">
+    <div>+40 786 493 557</div>
+    <div>Cosmina Pașcan</div>
+  </a>
+
+  <a href="tel:+40732737484">
+    <div>+40 732 737 484</div>
+    <div>Melinda Chiruță</div>
+  </a>
+
+  <a href="tel:+40743630423">
+    <div>+40 743 630 423</div>
+    <div>Novák Adrienn</div>
+  </a>
+</li>
+
               </ul>
             </div>
 
