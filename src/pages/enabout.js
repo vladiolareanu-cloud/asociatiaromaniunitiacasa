@@ -92,7 +92,7 @@ import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
         <section id="team">
           <div className="container">
             <div className="neoh_fn_title">
-              <h3 className="fn_title">Echipa RUA</h3>
+              <h3 className="fn_title">RUA Team</h3>
             </div>
             <p className="fn_desc fn_animated_text">
             RUA is an organization built around people who believe in responsibility, collaboration, and long-term involvement. Our activity is based on planning, partnerships, and well-coordinated actions designed to respond effectively to local social challenges.
@@ -100,7 +100,7 @@ import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
             <div className="neoh_fn_team">
               <ul className="team_list">
                 {TeamInfor.map((item, key) =>
-                  key < 9 && (
+                  key < 10 && (
                     <li className="team_item" key={key}>
                       <div className="t_item">
                         <div className="person_info">
@@ -147,7 +147,7 @@ Through support and active involvement, the diaspora becomes a bridge between th
             <div className="neoh_fn_team">
               <ul className="team_list">
                 {TeamInfor.map((item, key) =>
-                  key > 8 && key < 15 && (
+                  key > 9 && key < 15 && (
                     <li className="team_item" key={key}>
                       <div className="t_item">
                         <div className="person_info">
