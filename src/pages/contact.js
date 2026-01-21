@@ -89,7 +89,7 @@ const Contact = () => {
 
               <div className="donation_footer">
                 <p>
-                  Titular cont: <strong>Asociația Români Uniți Acasă – RUA</strong><br />
+                  Titular cont: <strong>Asociația Românii Uniți Acasă – RUA</strong><br />
                   Bancă: <strong>BRD</strong>
                 </p>
               </div>

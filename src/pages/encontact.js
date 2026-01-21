@@ -87,7 +87,7 @@ you can write to us or call us using the contact details below.
 
               <div className="donation_footer">
                 <p>
-                  Account Owner: <strong>Asociația Români Uniți Acasă – RUA</strong><br />
+                  Account Owner: <strong>Asociația Românii Uniți Acasă – RUA</strong><br />
                   Bank: <strong>BRD</strong>
                 </p>
               </div>
