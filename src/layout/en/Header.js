@@ -47,11 +47,17 @@ const Header = () => {
                     </li>
             
             
-             <li className="menu-item" style={{ marginBottom: "30px" }}>
-                          <Link legacyBehavior href="https://forms.gle/K62wzNZ4WKEMxPJDA">
-                            <a style={linkStyle}>Sign-Up</a>
-                          </Link>
-                        </li>
+            <li className="menu-item" style={{ marginBottom: "30px" }}>
+  <a
+    href="https://forms.gle/K62wzNZ4WKEMxPJDA"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={linkStyle}
+  >
+    Sign-up
+  </a>
+</li>
+
             <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="/encontact">
                 <a style={linkStyle}>Contact</a>
