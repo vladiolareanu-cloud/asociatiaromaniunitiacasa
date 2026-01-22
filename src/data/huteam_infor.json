@@ -1,0 +1,360 @@
+[
+        { 
+        "avatar": "team1.png",
+        "name": "Doru Borșan",
+        "position": "Elnök",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+              {
+        "avatar": "team6.png",
+        "name": "Cosmina Pașcan",
+        "position": "Ügyvezető igazgató",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+        {
+        "avatar": "team9.png",
+        "name": "Aurora Oniță",
+        "position": "Pénzügyi igazgató",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+
+
+    {
+        "avatar": "team2.png",
+        "name": "Melinda Chiruță",
+        "position": "Idősek támogatási osztály koordinátora",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+        {
+        "avatar": "team3.png",
+        "name": "Cătălin Pop",
+        "position": "Gyermeksegítő osztály koordinátora",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+        {
+        "avatar": "team4.png",
+        "name": "Adrienn Novák",
+        "position": "Logisztikai osztály koordinátora",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+           {
+        "avatar": "team5.png",
+        "name": "Iohana Borșan",
+        "position": "PR",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+   
+           {
+        "avatar": "team7.png",
+        "name": "Marius Popescu",
+        "position": "Marketing osztály koordinátora",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+           {
+        "avatar": "team8.png",
+        "name": "Vlad Olăreanu",
+        "position": "IT osztály koordinátora",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+        }, 
+
+          {
+        "avatar": "team10.png",
+        "name": "Nicu Mihoc",
+        "position": "Kommunikációs osztály koordinátora",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }},
+
+        { 
+        "avatar": "team11.png",
+        "name": "Karolina Borșan",
+        "position": "Social Media menedzser",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+        },
+
+
+
+
+
+
+        
+          {
+        "avatar": "dias1.png",
+        "name": "Bogdan Silvas",
+        "position": "Németországi koordinátor",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+          {
+        "avatar": "dias2.png",
+        "name": "Olga Timea Farcaș ",
+        "position": "Spanyolországi koordinátor",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+          {
+        "avatar": "dias3.png",
+        "name": "Mureșan  Petru  Mircea",
+        "position": "Franciaországi koordinátor",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+         {
+        "avatar": "dias4.png",
+        "name": "Tito Galanti",
+        "position": "Olaszországi koordinátor",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+         {
+        "avatar": "dias5.png",
+        "name": "Mats Paulsson",
+        "position": "Északi országok koordinátora",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+    {
+        "avatar": "dias6.png",
+        "name": "Christian Meier",
+        "position": "Svájci koordinátor",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+        
+    },
+     {
+        "avatar": "dias7.png",
+        "name": "Sorin Ciociu",
+        "position": "Angliai koordinátor",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+
+
+
+
+
+
+
+
+
+        
+                {
+        "avatar": "vol1.png",
+        "name": "Moldovan Laurențiu",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol2.png",
+        "name": "Moldovan Paul-Ștefan",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol3.png",
+        "name": "Maxim Mădălina",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol4.png",
+        "name": "Leonte Alexia",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol5.png",
+        "name": "Major Diana-Maria",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol6.png",
+        "name": "Lazăr Ștefana-Maria",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol7.png",
+        "name": "Iftime Mihai",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                   {
+        "avatar": "vol8.png",
+        "name": "Dămătăr Michele-Gabriel",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                   {
+        "avatar": "vol9.png",
+        "name": "Balahura Daria",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                   
+                     {
+        "avatar": "vol10.png",
+        "name": "Ravasz Viktória",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                     {
+        "avatar": "vol11.png",
+        "name": "Ureche Maria-Cristina",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+         {
+        "avatar": "vol12.png",
+        "name": "Barabás Zsófia",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    }
+        
+        
+        
+   
+ 
+]

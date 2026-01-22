@@ -1,0 +1,360 @@
+[
+        { 
+        "avatar": "team1.png",
+        "name": "Doru Borșan",
+        "position": "President",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+              {
+        "avatar": "team6.png",
+        "name": "Cosmina Pașcan",
+        "position": "Executive Director",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+        {
+        "avatar": "team9.png",
+        "name": "Aurora Oniță",
+        "position": "Financial Director",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+
+
+    {
+        "avatar": "team2.png",
+        "name": "Melinda Chiruță",
+        "position": "Senior Support Dep. Coordinator",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+        {
+        "avatar": "team3.png",
+        "name": "Cătălin Pop",
+        "position": "Child Support Dep. Coordinator",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+        {
+        "avatar": "team4.png",
+        "name": "Adrienn Novák",
+        "position": "Logistics Dep. Coordinator",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+           {
+        "avatar": "team5.png",
+        "name": "Iohana Borșan",
+        "position": "PR",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+   
+           {
+        "avatar": "team7.png",
+        "name": "Marius Popescu",
+        "position": "Marketing Dep. Coordinator",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+           {
+        "avatar": "team8.png",
+        "name": "Vlad Olăreanu",
+        "position": "IT Dep. Coordinator",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+        }, 
+
+          {
+        "avatar": "team10.png",
+        "name": "Nicu Mihoc",
+        "position": "Communication Dep. Coordinator",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }},
+
+        { 
+        "avatar": "team11.png",
+        "name": "Karolina Borșan",
+        "position": "Social Media Manager",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+        },
+
+
+
+
+
+
+        
+          {
+        "avatar": "dias1.png",
+        "name": "Bogdan Silvas",
+        "position": "Germany Coordinator",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+          {
+        "avatar": "dias2.png",
+        "name": "Olga Timea Farcaș ",
+        "position": "Spain Coordinator",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+          {
+        "avatar": "dias3.png",
+        "name": "Mureșan  Petru  Mircea",
+        "position": "France Coordinator",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+         {
+        "avatar": "dias4.png",
+        "name": "Tito Galanti",
+        "position": "Italy Coordinator",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+         {
+        "avatar": "dias5.png",
+        "name": "Mats Paulsson",
+        "position": "Nordic Countries Coordinator",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+    {
+        "avatar": "dias6.png",
+        "name": "Christian Meier",
+        "position": "Switzerland Coordinator",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+        
+    },
+     {
+        "avatar": "dias7.png",
+        "name": "Sorin Ciociu",
+        "position": "England Coordinator",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+
+
+
+
+
+
+
+
+
+        
+                {
+        "avatar": "vol1.png",
+        "name": "Moldovan Laurențiu",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol2.png",
+        "name": "Moldovan Paul-Ștefan",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol3.png",
+        "name": "Maxim Mădălina",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol4.png",
+        "name": "Leonte Alexia",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol5.png",
+        "name": "Major Diana-Maria",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol6.png",
+        "name": "Lazăr Ștefana-Maria",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol7.png",
+        "name": "Iftime Mihai",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                   {
+        "avatar": "vol8.png",
+        "name": "Dămătăr Michele-Gabriel",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                   {
+        "avatar": "vol9.png",
+        "name": "Balahura Daria",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                   
+                     {
+        "avatar": "vol10.png",
+        "name": "Ravasz Viktória",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                     {
+        "avatar": "vol11.png",
+        "name": "Ureche Maria-Cristina",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+         {
+        "avatar": "vol12.png",
+        "name": "Barabás Zsófia",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    }
+        
+        
+        
+   
+ 
+]

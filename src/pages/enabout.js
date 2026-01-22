@@ -1,6 +1,6 @@
 import Layout from "@/layout/en/Layout";
 import PageBanner from "@/layout/en/PageBanner";
-import TeamInfor from "@/data/team_infor.json";
+import TeamInfor from "@/data/enteam_infor.json";
 import Link from "next/link";
 import { useCallback } from "react";
 import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
