@@ -1,9 +1,20 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const TaskManager = () => {
   const [tasks, setTasks] = useState([]);
   const [taskName, setTaskName] = useState("");
   const [taskDesc, setTaskDesc] = useState("");
+
+  // Încarcă taskurile din localStorage la mount
+  useEffect(() => {
+    const storedTasks = localStorage.getItem("tasks");
+    if (storedTasks) setTasks(JSON.parse(storedTasks));
+  }, []);
+
+  // Salvează taskurile în localStorage la fiecare schimbare
+  useEffect(() => {
+    localStorage.setItem("tasks", JSON.stringify(tasks));
+  }, [tasks]);
 
   const handleAddTask = () => {
     if (!taskName.trim()) return;
@@ -56,15 +67,15 @@ const TaskManager = () => {
         {tasks.map((task) => (
           <div
             key={task.id}
-            className="flex justify-between items-center border p-3 rounded shadow-sm"
+            className="flex justify-between items-start border p-3 rounded shadow-sm"
           >
-            <div>
-              <h3 className="font-semibold">{task.name}</h3>
+            <div className="flex-1">
+              <h3 className="font-semibold text-lg">{task.name}</h3>
               <p className="text-gray-600">{task.description}</p>
             </div>
             <button
               onClick={() => handleDeleteTask(task.id)}
-              className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600 transition"
+              className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600 transition ml-4"
             >
               Delete
             </button>
