@@ -8,8 +8,8 @@ import TeamAdvisor from '@/data/team_advisor.json';
 
 const HuVoluntari = () => {
    return (
-    <Layout pageName={"Voluntari"}>
-      <PageBanner pageName={"Voluntari"} imageURL={"img/hero/head_about_background.png"}/>
+    <Layout pageName={"Önkéntesek"}>
+      <PageBanner pageName={"Önkéntesek"} imageURL={"img/hero/head_about_background.png"}/>
       <div className="neoh_fn_teampage">
         <section id="team">
           <div className="container">
