@@ -100,7 +100,8 @@
             "instagram": "",
             "linkedin": ""
         }
-    },
+        }, 
+
           {
         "avatar": "team10.png",
         "name": "Nicu Mihoc",
@@ -110,8 +111,19 @@
             "facebook": "",
             "instagram": "",
             "linkedin": ""
+        }},
+
+        { 
+        "avatar": "team11.png",
+        "name": "Karolina Borșan",
+        "position": "Social Media Manager",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
         }
-    },
+        },
 
 
 
@@ -178,6 +190,18 @@
         "avatar": "dias6.png",
         "name": "Christian Meier",
         "position": "Coordonator Elveția",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+        
+    },
+     {
+        "avatar": "dias7.png",
+        "name": "Sorin Ciociu",
+        "position": "Coordonator Anglia",
         "social": {
             "twitter": "",
             "facebook": "",

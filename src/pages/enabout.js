@@ -100,7 +100,7 @@ import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
             <div className="neoh_fn_team">
               <ul className="team_list">
                 {TeamInfor.map((item, key) =>
-                  key < 10 && (
+                  key < 11 && (
                     <li className="team_item" key={key}>
                       <div className="t_item">
                         <div className="person_info">
@@ -147,7 +147,7 @@ Through support and active involvement, the diaspora becomes a bridge between th
             <div className="neoh_fn_team">
               <ul className="team_list">
                 {TeamInfor.map((item, key) =>
-                  key > 9 && key < 15 && (
+                  key > 10 && key < 17 && (
                     <li className="team_item" key={key}>
                       <div className="t_item">
                         <div className="person_info">
