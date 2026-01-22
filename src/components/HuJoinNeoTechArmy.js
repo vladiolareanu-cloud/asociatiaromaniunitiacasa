@@ -78,7 +78,7 @@ const HuJoinNeoTechArmy = () => {
       <div className="container">
         {/* Titlu */}
         <div className="neoh_fn_title">
-          <h3 className="fn_title">Be a part of our community!</h3>
+          <h3 className="fn_title">Legyél része a közösségünknek!</h3>
         </div>
 
         {/* Chenar albastru centrat */}
