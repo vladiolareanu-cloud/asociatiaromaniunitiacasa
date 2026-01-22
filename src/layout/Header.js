@@ -47,7 +47,7 @@ const Header = () => {
             </li>
             <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="https://forms.gle/K62wzNZ4WKEMxPJDA">
-                <a style={linkStyle}>Inscriete</a>
+                <a style={linkStyle}>Inscrie-te</a>
               </Link>
             </li>
             <li className="menu-item" style={{ marginBottom: "30px" }}>
