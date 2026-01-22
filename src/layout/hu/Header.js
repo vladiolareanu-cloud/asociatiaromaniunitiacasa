@@ -31,18 +31,18 @@ const Header = () => {
         <div className="nav_content">
           <ul style={{ padding: "20px 0" }}>
             <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <Link legacyBehavior href="/enabout">
-                <a style={linkStyle}>About us</a>
+              <Link legacyBehavior href="/huabout">
+                <a style={linkStyle}>Rólunk</a>
               </Link>
                   </li>
                   <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <Link legacyBehavior href="/envoluntari">
-                <a style={linkStyle}>Volunteers</a>
+              <Link legacyBehavior href="/huvoluntari">
+                <a style={linkStyle}>Önkéntesek</a>
               </Link>
             </li>
             <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <Link legacyBehavior href="/encazuri-sociale">
-                <a style={linkStyle}>Social Cases</a>
+              <Link legacyBehavior href="/hucazuri-sociale">
+                <a style={linkStyle}>Szociális eseteks</a>
                     </Link>
                     </li>
             
@@ -54,13 +54,13 @@ const Header = () => {
     rel="noopener noreferrer"
     style={linkStyle}
   >
-    Sign-up
+    Regisztráció
   </a>
 </li>
 
             <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <Link legacyBehavior href="/encontact">
-                <a style={linkStyle}>Contact</a>
+              <Link legacyBehavior href="/hucontact">
+                <a style={linkStyle}>Kapcsolat</a>
               </Link>
             </li>
           </ul>
@@ -148,11 +148,11 @@ const Header = () => {
                 border: "1px solid #fff",
               }}
               onClick={() => {
-                window.location.href = "/index"; // link către versiunea engleză
+                window.location.href = "/en"; // link către versiunea engleză
               }}
             >
               <img
-                src="/img/flags/us.png"
+                src="/img/flags/hu.png"
                 alt="English"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />

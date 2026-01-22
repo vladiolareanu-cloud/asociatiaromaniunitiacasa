@@ -146,11 +146,11 @@ const Header = () => {
                 border: "1px solid #fff",
               }}
               onClick={() => {
-                window.location.href = "/en"; // link către versiunea engleză
+                window.location.href = "/hu"; // link către versiunea engleză
               }}
             >
               <img
-                src="/img/flags/us.png"
+                src="/img/flags/ro.png"
                 alt="English"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
