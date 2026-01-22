@@ -1,0 +1,13 @@
+{
+  "site": {
+    "title": "Romanians United at Home Association"
+  },
+  "menu": {
+    "home": "Home",
+    "cases": "Social Cases",
+    "contact": "Contact"
+  },
+  "cases": {
+    "title": "Social Cases"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "site": {
+    "title": "Asociația Români Uniți Acasă"
+  },
+  "menu": {
+    "home": "Acasă",
+    "cases": "Cazuri sociale",
+    "contact": "Contact"
+  },
+  "cases": {
+    "title": "Cazuri Sociale"
+  }
+}
