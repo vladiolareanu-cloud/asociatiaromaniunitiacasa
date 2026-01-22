@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /* Wrapper general pentru cazuri sociale */
 .cazuri_sociale_wrapper {
   width: 100%;
@@ -10,63 +11,13 @@
   box-sizing: border-box;
 }
 
-/* Bloc individual de caz */
-.caz_block {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 50px;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
-/* Imaginea din bloc */
-.caz_block img {
-  width: 45%;
-  max-width: 400px;
-  border-radius: 10px;
+/* Slider images safety */
+.swiper img {
   object-fit: cover;
 }
 
-/* Textul din bloc */
-.caz_block p {
-  width: 50%;
-  font-size: 18px;
-  line-height: 1.6;
-  text-align: justify;
-  margin: 0; /* previne margin implicit */
+/* Optional: mici ajustări text globale */
+p {
+  margin: 0;
 }
 
-/* Poziția stânga/dreapta */
-.caz_block.left {
-  flex-direction: row;
-}
-
-.caz_block.right {
-  flex-direction: row-reverse;
-}
-
-/* Responsive: mobil/tabletă */
-@media screen and (max-width: 768px) {
-  .caz_block {
-    flex-direction: column; /* imagine + text unul sub altul */
-    gap: 20px;
-    text-align: left; /* text mai lizibil pe mobil */
-  }
-
-  .caz_block img {
-    width: 100%;       /* imagine mare, la fel ca sliderul */
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    object-fit: cover;
-  }
-
-  .caz_block p {
-    width: 100%;
-    padding: 0 20px;   /* padding lateral generos */
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: left;
-  }
-}

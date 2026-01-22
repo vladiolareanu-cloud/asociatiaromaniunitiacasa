@@ -7,58 +7,68 @@ import jsonData from "@/data/cazuri.json";
 const CazuriSociale = () => {
   return (
     <>
-      {/* Video sub titlu */}
-      <VideoPopupLocal
-        videoSrc="/img/MAAS/MAAS_movie.mp4"
-        trigger={
-          <div className="neoh_fn_video">
-            <div
-              className="bg_overlay relative rounded-lg overflow-hidden"
-              style={{ width: "100%", paddingTop: "56.25%" }} // 16:9
-            >
-              <video
-                className="absolute top-0 left-0 w-full h-full object-cover cursor-pointer"
-                src="/img/MAAS/MAAS_movie.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
-                preload="metadata"
-              />
-            </div>
-            <div className="v_content">
-              <img
-                src="svg/play.svg"
-                alt="Play"
-                className="fn__svg cursor-pointer"
-              />
-            </div>
-          </div>
-        }
-      />
+      {/* VIDEO DE SUS */}
+      <div className="max-w-[1200px] mx-auto px-4 md:px-6 mb-20">
+        <VideoPopupLocal
+          videoSrc="/img/MAAS/MAAS_movie.mp4"
+          trigger={
+            <div className="neoh_fn_video">
+              <div
+                className="relative rounded-lg overflow-hidden w-full"
+                style={{ paddingTop: "56.25%" }} // 16:9
+              >
+                <video
+                  className="absolute top-0 left-0 w-full h-full object-cover cursor-pointer"
+                  src="/img/MAAS/MAAS_movie.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  preload="metadata"
+                />
+              </div>
 
-      {/* TOATE campaniile din JSON */}
+              <div className="v_content">
+                <img
+                  src="svg/play.svg"
+                  alt="Play"
+                  className="fn__svg cursor-pointer"
+                />
+              </div>
+            </div>
+          }
+        />
+      </div>
+
+      {/* CAMPANII */}
       {jsonData.map((campanie, campIndex) => (
-        <div key={campIndex} className="mb-20">
-          {/* Titlu campanie */}
+        <div key={campIndex} className="mb-24">
+          {/* TITLU CAMPANIE */}
           <div className="text-center my-12">
             <h2 className="text-[#00bfff] text-3xl md:text-4xl font-bold">
               {campanie.titlu}
             </h2>
           </div>
 
-          {/* Cazuri */}
-          <div className="cazuri_sociale_wrapper max-w-[1200px] mx-auto px-4 md:px-6">
+          {/* CAZURI */}
+          <div className="cazuri_sociale_wrapper">
             {campanie.cazuri.map((item, index) => (
               <div
                 key={index}
-                className={`caz_block flex flex-col md:flex-row md:items-center gap-6 mb-12 ${
-                  item.pozitie === "left" ? "md:flex-row" : "md:flex-row-reverse"
-                }`}
+                className={`flex flex-col gap-6 mb-16
+                  ${
+                    item.pozitie === "left"
+                      ? "md:flex-row"
+                      : "md:flex-row-reverse"
+                  }
+                  md:items-center`}
               >
-                {/* MEDIA: IMG sau VIDEO */}
+                {/* MEDIA */}
                 {item.poza.endsWith(".mp4") ? (
-                  <div className="w-full md:w-1/2 rounded-lg overflow-hidden relative" style={{ paddingTop: "56.25%" }}>
+                  <div
+                    className="w-full md:w-1/2 rounded-lg overflow-hidden relative bg-black"
+                    style={{ paddingTop: "56.25%" }}
+                  >
                     <video
                       src={item.poza}
                       controls
@@ -76,13 +86,13 @@ const CazuriSociale = () => {
                 )}
 
                 {/* TEXT */}
-                <p className="w-full md:w-1/2 text-justify text-base md:text-lg leading-relaxed px-4 md:px-6">
+                <p className="w-full md:w-1/2 text-justify text-base md:text-lg leading-relaxed px-2 md:px-6">
                   {item.text}
                 </p>
               </div>
             ))}
 
-            {/* Slider – DOAR IMAGINI */}
+            {/* SLIDER */}
             <div className="mt-12">
               <Swiper
                 spaceBetween={10}
@@ -93,11 +103,10 @@ const CazuriSociale = () => {
                 freeMode={true}
                 speed={5000}
                 breakpoints={{
-                  320: { slidesPerView: 1, spaceBetween: 10 },
-                  480: { slidesPerView: 2, spaceBetween: 10 },
-                  640: { slidesPerView: 2, spaceBetween: 10 },
-                  768: { slidesPerView: 3, spaceBetween: 10 },
-                  1024: { slidesPerView: 4, spaceBetween: 10 },
+                  320: { slidesPerView: 1 },
+                  480: { slidesPerView: 2 },
+                  768: { slidesPerView: 3 },
+                  1024: { slidesPerView: 4 },
                 }}
               >
                 {campanie.slider.map((img, key) => (
