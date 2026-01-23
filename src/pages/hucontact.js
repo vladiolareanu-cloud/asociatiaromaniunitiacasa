@@ -17,9 +17,9 @@ const HuContact = () => {
   }, []);
 
   return (
-    <Layout pageName="Contact">
+    <Layout pageName="Kapcsolat">
       <PageBanner
-        pageName="Contact"
+        pageName="Kapcsolat"
         imageURL="img/hero/head_about_background.png"
       />
 
