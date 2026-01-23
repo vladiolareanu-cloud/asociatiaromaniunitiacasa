@@ -64,7 +64,7 @@ const HuContact = () => {
 
             {/* DONATII */}
             <div className="donation_card">
-              <h3 className="fn_title">Support our work</h3>
+              <h3 className="fn_title">Támogasd a munkánkat</h3>
               <p className="fn_desc">
                Az adományok segítenek folytatni a közösségnek szóló szociális projekteket. Köszönjük a támogatását!
               </p>
