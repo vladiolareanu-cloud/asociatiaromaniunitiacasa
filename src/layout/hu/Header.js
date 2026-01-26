@@ -110,7 +110,7 @@ const Header = () => {
         >
           {/* Logo */}
           <div className="logo">
-            <Link legacyBehavior href="/en">
+            <Link legacyBehavior href="/hu">
               <a>
                 <img
                   src="/img/menu/logo.png"
@@ -153,7 +153,7 @@ const Header = () => {
             >
               <img
                 src="/img/flags/hu.png"
-                alt="English"
+                alt="Hungary"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
